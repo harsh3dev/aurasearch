@@ -1,12 +1,8 @@
-import LogoutButton from "@/components/LogoutButton";
-
+import HomeComponent from '@/components/Home/Home';
 export default function Home() {
   return (
-    <>
-    <h1 className="">Hello</h1>    
-    <h2>Hello</h2>
-    <h3>Hello</h3>
-    <LogoutButton/>
-    </>
+    <div className=" w-full min-h-screen flex flex-col justify-normal items-start gap-4 ">
+      <HomeComponent/>
+    </div>
   );
 }

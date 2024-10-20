@@ -13,7 +13,7 @@ const Page = () => {
 
   return (
     <div>
-      <Button variant="outline" className="w-full bg-transparent dark:bg-transparent border-text py-6 " onClick={() => onClick('google')}>
+      <Button onClick={() => onClick('google')}>
             <User className="mr-2 h-5 w-5" />
             Signin with Google
         </Button>
